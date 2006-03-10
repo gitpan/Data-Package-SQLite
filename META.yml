@@ -3,14 +3,13 @@ no_index:
   directory: 
     - inc
     - t
-generated_by: Module::Install version 0.58
+generated_by: Module::Install version 0.59
 distribution_type: module
-version: 0.01
+version: 0.02
 name: Data-Package-SQLite
 author: Adam Kennedy <cpan@ali.as>
 license: perl
 build_requires: 
-  File::Copy: 0
   Test::More: 0.47
   File::Spec: 0.80
   File::Path: 0
