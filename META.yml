@@ -1,24 +1,23 @@
-
+abstract: A data package for a SQLite database
+author: Adam Kennedy <cpan@ali.as>
+build_requires: 
+  File::Path: 0
+  File::Spec: 0.80
+  Test::More: 0.47
+distribution_type: module
+generated_by: Module::Install version 0.63
+license: perl
+name: Data-Package-SQLite
 no_index: 
   directory: 
     - inc
     - t
-generated_by: Module::Install version 0.59
-distribution_type: module
-version: 0.02
-name: Data-Package-SQLite
-author: Adam Kennedy <cpan@ali.as>
-license: perl
-build_requires: 
-  Test::More: 0.47
-  File::Spec: 0.80
-  File::Path: 0
 requires: 
-  perl: 5.005
-  Data::Package: 0.06
-  File::ShareDir: 0.03
-  Params::Util: 0.10
+  Carp: 0
   DBD::SQLite: 1.10
   DBI: 1.43
-  Carp: 0
-abstract: A data package for a SQLite database
+  Data::Package: 1.00
+  File::ShareDir: 0.03
+  Params::Util: 0.10
+  perl: 5.005
+version: 1.00
